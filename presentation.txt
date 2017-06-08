@@ -1,0 +1,8 @@
+HI.....How are you all?
+
+Here i am presenting my assignment in a wording format and coming to introduction,first i spin an redhat linux instance
+using my aws console and i assigned a security groups in inbound/outbound rules to redirect any request from http to https.
+Then in my local i used my local server and created a cookbook named apache and i wrote a code in ruby language in recipes
+folder and then that code will clone my github repository and will fetch the file what is i stored in my repo and deploys
+the helloworld html file on the tomcat server. Here i am giving my cookbook and related images in my github repository and
+i have done some automated code to validate the correctness of the server and i am forwarding to you ................

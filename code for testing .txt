@@ -1,0 +1,20 @@
+In your case, you need to validate the server responses, so the point is to modelate the inputs. Our interpreter perform 3 actions:
+
+Load/Parse XML
+Transform each case into a server request
+Compare response with the expected response
+
+<SuiteCase country="en">
+      <Cases>
+          <Case id="contactDataValidation" result="OK">
+            <Field name="email" value="xxx@mail.com"/>
+            <Field name="phone" value=""/>
+            <Field name="movile" value="000000000"/>
+         </Case>
+          <Case id="contactDataValidation" result="KO">
+            <Field name="email" value="xxx@mail."/>
+            <Field name="phone" value=""/>
+            <Field name="movile" value=""/>
+         </Case>
+     </Cases>
+</SuiteCase>
